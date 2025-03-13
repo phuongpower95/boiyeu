@@ -1,16 +1,15 @@
 {
-  "name": "facebook-login-clone",
+  "name": "boichuan2026",
   "version": "1.0.0",
-  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
-    "firebase": "^10.5.0",
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest"
+    "googleapis": "^146.0.0",
+    "next": "^15.2.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
